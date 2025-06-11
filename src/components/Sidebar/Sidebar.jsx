@@ -29,7 +29,6 @@ const Sidebar = (props) => {
 
     const [opened, setOpened] = useState(false);
     const [active, setActive] = useState('/sales');
-    console.log(active);
 
     const goToRoute = (path) => {
         console.log(`going to "${path}"`);
